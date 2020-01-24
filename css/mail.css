@@ -1,0 +1,76 @@
+.mail-body {
+    color:#505050;
+    background-color: #fafafa;
+    font-family:Arial, sans-serif;
+    font-weight:normal;
+    font-size: 16px;
+    text-align:left;
+}
+.mail-body > div{
+    width:600px;
+    padding:50px 0;
+    margin:0 auto;
+}
+.mail-wrapper{
+    background-color:#ffffff;
+    border:1px solid #e9e9e9;
+    border-top:20px solid #0098b7;
+    border-bottom:1px solid #0098b7;
+    padding:20px 40px 40px;
+}
+.mail-logo{
+    margin:25px 0;
+    width:120px;
+}
+.mail-title{
+    margin:20px 0;
+    font-size:22px;
+    font-weight:bold;
+}
+.mail-content{
+    line-height: 1.4;
+}
+.top-separator{
+    border-top:1px solid #f6f6f6;
+    padding-top:20px;
+}
+.special-content{
+    margin:15px 0;
+    padding:20px 0;
+    color:#626262;
+    background-color:#f6f6f6;
+    font-weight:bold;
+    font-size:20px;
+    text-align:center;
+}
+.mail-body table{
+    border:0;
+    border-collapse:separate;
+}
+.table-button td{
+    border:none;
+    border-radius:6px;
+    cursor:auto;
+    padding:12px 40px;
+    background:#0098b7;
+}
+.table-button a{
+    background:#0098b7;
+    color:#ffffff;
+    font-weight:600;
+    margin:0;
+    text-decoration:none;
+    text-transform:none;
+}
+.table-suscripted {
+    width: 600px;
+    padding:20px 10px;
+    color:#a1a1a1;
+}
+.table-suscripted small::before{
+    content: '* ';
+}
+.table-suscripted small{
+    display: inline-block;
+    line-height: 1.4;
+}
